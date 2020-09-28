@@ -1,0 +1,231 @@
+html, body{
+    width: 1400px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.nav{
+    margin: 40px 100px;
+    color:gray;
+    font-size: 1em;
+    font-weight: 500;
+    height: 50px;
+}
+
+.logo{
+    padding-top: 10px;
+    float: left;
+}
+
+#left-nav {
+    float: left;
+}
+.nav-link, .nav-items{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+#right-nav{
+    float: right;
+
+}
+a:visited {
+    color:gray ;
+  }
+#login, #login a  {
+    background: none;
+    border: none;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.btn, .btn a{
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    border: none;
+    background-color:hsl(180, 66%, 49%) ;
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.welcome-message{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* padding-top: 100px; */
+}
+.get-started{
+    padding-left: 100px;
+    font-size: 1.2em;
+    margin: auto;
+}
+#message{
+    font-size: 3em;
+    color: hsl(255, 11%, 22%);
+    margin:auto;
+    line-height: 1.2;
+}
+
+.form{
+    height: 70px;
+    width: 80%;
+    margin: auto;
+    background-image: url(images/bg-shorten-desktop.svg);
+    background-size: cover;
+    padding: 50px;
+    background-color: hsl(257, 27%, 26%);
+    border-radius:10px;
+    position: relative;
+    top: 80px;
+}
+.search{
+    height:60px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 50px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.shorten-btn{
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+}
+.services{
+    background-color:hsl(0, 0%, 75%);
+    text-align: center;
+    padding-top: 150px;
+    width: 100%;
+
+}
+.text{
+    width: 40%;
+    margin: auto;
+}
+h2 {
+    color: hsl(255, 17%, 14%);
+    font-size: 3em;
+    font-weight: 500;
+}
+.cards{
+    display:grid ;
+    grid-template-columns: auto auto auto ;
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.card{
+    height: 300px;
+    width: 350px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    z-index: 1;
+}
+
+.icons{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:hsl(255, 17%, 14%);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top:-50px
+}
+
+h3{
+    color: hsl(255, 17%, 14%);
+}
+.card p{
+    font-size: 1em;
+}
+
+hr{
+    border: solid 6px hsl(180, 66%, 49%);
+    position: relative;
+    top: 300px;
+    z-index: 0;
+}
+
+.middle{
+    position: relative;
+    top:50px
+}
+.right{
+    position: relative;
+    top: 100px;
+}
+
+.boost-section{
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background-image: url(images/bg-boost-desktop.svg);
+    background-size: cover;
+    padding: 50px 0;
+    background-color: hsl(257, 27%, 26%);
+    text-align: center;
+}
+.boost {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    margin: auto;
+}
+.footer{
+    background-color:hsl(257, 27%, 26%);
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.footer-logo{
+    fill:white;
+    /* width: 40px; */
+    margin: 80px 0 0 80px
+}
+
+.fab{
+    color: white;
+    display: inline;
+    margin: 5px;
+    
+}
+.links{
+    width: 140px;
+    line-height: 2;
+    margin-top: 80px;
+}
+.links a {
+    text-decoration: none;
+    color:hsl(0, 0%, 75%);
+}
+.fhead, .fhead a{
+    color: white;
+}
